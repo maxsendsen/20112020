@@ -2,3 +2,87 @@
     margin: 0%;
     padding: 0%;
 }
+
+header {
+    width: 100vw; 
+    background-color: #7A6F5E;
+    height: 4.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    margin-bottom: 10%;
+}
+
+header img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.login{
+    background-color: #7a6f5e;
+    height: 300px;
+    margin-top: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: auto;
+
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 80%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 10%; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    margin-left: 10%;
+    resize: vertical ;/* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: #fae2c0;
+    
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #ffc778;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    border-bottom: none;
+    cursor: pointer;
+    color:black;
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #dad0eb;
+  }
+
+  
+body{
+  height: 100vh;
+  background-image: url(images/stue_populaere_ting.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+footer{
+  margin: auto;
+  padding: 1em;
+  width: 100vw;
+  background-color: #7a6f5e;
+  color: black;
+  position: fixed;
+  bottom: 0;
+} 
+
+footer p{
+  text-align: center;
+}
