@@ -11,6 +11,7 @@ header {
     top: 0;
     left: 0;
     display: flex;
+    margin-bottom: 10%;
 }
 
 header img {
@@ -20,8 +21,8 @@ header img {
 
 .login{
     background-color: #7a6f5e;
-    height: 500px;
-    margin-top: 2%;
+    height: 300px;
+    margin-top: 40%;
     margin-left: 10%;
     margin-right: 10%;
     width: auto;
@@ -34,8 +35,9 @@ input[type=text], select, textarea {
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
+    margin-top: 10%; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
+    margin-left: 10%;
     resize: vertical ;/* Allow the user to vertically resize the textarea (not horizontally) */
     background-color: #fae2c0;
     
@@ -51,6 +53,8 @@ input[type=text], select, textarea {
     border-bottom: none;
     cursor: pointer;
     color:black;
+    margin-left: 40%;
+    margin-top: 10%;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
