@@ -57,3 +57,28 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #dad0eb;
   }
+
+  
+body{
+  height: 100vh;
+  background-image: url(images/stue_populaere_ting.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+footer{
+  margin: auto;
+  padding: 1em;
+  width: 100vw;
+  background-color: #7a6f5e;
+  color: black;
+  position: fixed;
+  bottom: 0;
+} 
+
+footer p{
+  text-align: center;
+}
